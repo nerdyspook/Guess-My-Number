@@ -1,120 +1,120 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 html {
-  /* font-size: 62.5%; */
+    /* font-size: 62.5%; */
 }
 
 body {
-  font-family: "Press Start 2P", sans-serif;
-  color: #e5e7eb;
-  background-color: #1f2937;
-  /* background-color: #60b347; */
+    font-family: "Press Start 2P", sans-serif;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    /* background-color: #60b347; */
 }
 
 /* Layout */
 header {
-  position: relative;
-  height: 30vh;
-  border-bottom: 7px solid #e5e7eb;
+    position: relative;
+    height: 30vh;
+    border-bottom: 7px solid #e5e7eb;
 }
 
 main {
-  height: 70vh;
-  color: #e5e7eb;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    height: 70vh;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .left {
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .right {
-  width: 40vw;
-  font-size: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    width: 40vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Element Style */
 h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 40%;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
 }
 
 .number {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  left: 38vw;
-  color: #1f2937;
-  font-size: 3rem;
-  background-color: #e5e7eb;
-  padding: 2rem;
-  padding-top: 2.5rem;
-  width: 20rem;
-  height: 8rem;
-  border: 1px solid #e5e7eb;
-  transform: translateY(4rem);
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 42vw; /* 38vw */
+    color: #1f2937;
+    font-size: 3rem;
+    background-color: #e5e7eb;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    width: 10rem;
+    height: 8rem;
+    border: 1px solid #e5e7eb;
+    transform: translateY(4rem);
 }
 
 .between {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
 }
 
 .again {
-  position: absolute;
-  top: 1rem;
-  left: 2rem;
-  font-family: inherit;
-  padding: 1rem;
-  border: 1px solid #e5e7eb;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-family: inherit;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
 }
 
 .guess {
-  text-align: center;
-  font-family: inherit;
-  font-size: 2rem;
-  color: inherit;
+    text-align: center;
+    font-family: inherit;
+    font-size: 2rem;
+    color: inherit;
 
-  padding: 3rem;
-  width: 12rem;
-  background-color: transparent;
-  border: 8px solid #e5e7eb;
+    padding: 3rem;
+    width: 12rem;
+    background-color: transparent;
+    border: 8px solid #e5e7eb;
 }
 
 .check {
-  margin: 1rem;
-  font-family: inherit;
-  font-size: 1.5rem;
-  padding: 1.2rem;
-  border: 4px solid #e5e7eb;
+    margin: 1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    border: 4px solid #e5e7eb;
 }
 
 .message {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .btn:active {
-  transform: scale(0.98);
-  transition: all ease;
+    transform: scale(0.98);
+    transition: all ease;
 }
